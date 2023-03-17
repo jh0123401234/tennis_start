@@ -18,14 +18,16 @@ class _LoginScreenState extends State<LoginScreen> {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            ElevatedButton(
+            ElevatedButton.icon(
                 onPressed: () {},
+                icon: const Icon(Icons.add_card),
                 style: ElevatedButton.styleFrom(shape: const StadiumBorder()),
-                child: const Text("Kakao Login")),
-            ElevatedButton(
+                label: const Text("Kakao Login")),
+            ElevatedButton.icon(
                 onPressed: () {},
+                icon: const Icon(Icons.add_card),
                 style: ElevatedButton.styleFrom(shape: const StadiumBorder()),
-                child: const Text("Google Login"))
+                label: const Text("Google Login")),
           ],
         )));
   }
