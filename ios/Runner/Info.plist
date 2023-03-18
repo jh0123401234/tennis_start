@@ -28,7 +28,7 @@
           <key>CFBundleURLSchemes</key>
           <array>
             <!-- kakao login -->
-            <string>4f24de9b0f7e23f104d1d1581504dd56</string>
+            <string>kakao4f24de9b0f7e23f104d1d1581504dd56</string>
           </array>
           </dict>
         </array>
